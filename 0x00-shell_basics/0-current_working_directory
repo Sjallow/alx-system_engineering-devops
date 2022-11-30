@@ -1,3 +1,2 @@
 #!/bin/bash
 pwd
-emacs 0-current_working_directory

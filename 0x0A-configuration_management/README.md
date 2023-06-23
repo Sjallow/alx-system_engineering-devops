@@ -1,0 +1,1 @@
+Configuration management is the practice of automating the deployment, configuration, and management of software and infrastructure components. It involves using tools and processes to ensure that the state of an environment remains consistent, predictable, and reliable over time.

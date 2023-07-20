@@ -18,6 +18,12 @@ backend clickviral-tech-backend
 listen http-in
 	bind :80
 	balance roundrobin
-	server 87235-web-01 100.24.74.197:80 check
-	server 87235-web-02 52.91.117.197:80 check
+	server 87235-web-01 3.90.85.233:80 check
+	server 87235-web-02 35.153.16.154:80 check
+
+listen http-in
+	bind :80
+	balance roundrobin
+	server 87235-web-01 3.90.85.233:80 check
+	server 87235-web-02 100.25.203.212:80 check
 
